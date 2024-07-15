@@ -1,13 +1,6 @@
-//
-//  ContentView.swift
-//  Tracker
-//
-//  Created by 張竣傑 on 7/14/24.
-//
-
 import SwiftUI
 
-struct ContentView: View {
+struct MainView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,5 +13,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    MainView()
 }
