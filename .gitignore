@@ -1,0 +1,50 @@
+# Xcode
+#
+build/
+DerivedData/
+.idea/
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+
+# Objective-C/Swift specific
+#
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Carthage
+#
+Carthage/Build/
+
+# CocoaPods
+#
+Pods/
+*.xcscmblueprint
+# Add this line if you use Carthage
+Carthage/Checkouts/
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo.
+# Instead, use fastlane to re-generate the screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+#
+# Remove the comment if you use Injection
+# See https://github.com/johnno1962/injectionforxcode
+#InjectionProject/InjectionPlugin.xcodeproj
+
